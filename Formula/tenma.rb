@@ -7,7 +7,6 @@ class Tenma < Formula
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
-  depends_on :macos
   depends_on "freetype"
   depends_on "gmp"
   depends_on "icu4c@78"
@@ -16,6 +15,7 @@ class Tenma < Formula
   depends_on "libpq"
   depends_on "libsodium"
   depends_on "libzip"
+  depends_on :macos
   depends_on "oniguruma"
   depends_on "openssl@3"
   depends_on "webp"
