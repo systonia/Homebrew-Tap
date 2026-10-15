@@ -1,9 +1,9 @@
 class Tenma < Formula
   desc "PHP with Node's execution model: one process, one event loop"
   homepage "https://tenma.dev"
-  url "https://github.com/systonia/Tenma/releases/download/v0.1.10/tenma-macos-arm64.tar.gz"
-  version "0.1.10"
-  sha256 "c32ae726af2a825f006937ba6391a0497e020679a208efd638a6bf8d45edcbcc"
+  url "https://github.com/systonia/Tenma/releases/download/v0.1.11/tenma-macos-arm64.tar.gz"
+  version "0.1.11"
+  sha256 "38f5c949c294747060f126dd3c46f98c56c1285d4b0b32725e5e90fc5c8da9d1"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
